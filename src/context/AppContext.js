@@ -116,7 +116,7 @@ export const AppProvider = (props) => {
                 currency: state.currency
             }}
         >
-            {props.children}
+            {props.children};
         </AppContext.Provider>
     );
 };
